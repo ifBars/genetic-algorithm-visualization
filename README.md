@@ -11,7 +11,7 @@ Interactive, deterministic-friendly GA playground built with React 18, Vite, Typ
 - **Import/export** – JSON payload restores runs (config + last 50 generations + best individual) and CSV snapshot exports the current population.
 - **Tailwind styling** – responsive layout with accessible focus states and WCAG-friendly contrast.
 
-## Getting Started
+## Hosting your own
 
 ```bash
 npm install
@@ -29,9 +29,4 @@ The app runs entirely in the browser and produces a static `dist/` build suitabl
 - `src/utils/` – helpers for math, CSV generation, downloads, and validation.
 - `src/data/presets.ts` – default configuration and quick presets.
 
-## Accessibility & Browser Support
-
-- Keyboard navigable controls with visible focus states and descriptive labels/tooltips.
-- Responsive layout targeting the latest two versions of Chrome, Edge, Firefox, and Safari.
-
-Feel free to tweak presets, bounds, or fitness functions to craft new optimisation landscapes.
+Feel free to tweak presets, bounds, or fitness functions.
